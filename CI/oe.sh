@@ -59,6 +59,7 @@ if [ "$OLDHASH" == "$GITHASH" ]; then
     exit 0
 fi
 echo $GITHASH > oe.hash
+rm -rf ${PD}
 git clone --depth 1 ${Homepage} local
 
 VER="$PVER+git$GITCOMMITS+${GITHASH}_r0"
