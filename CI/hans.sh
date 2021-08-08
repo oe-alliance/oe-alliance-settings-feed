@@ -47,6 +47,7 @@ EOF
     tar -C ${TMP} -czf ${B}/data.tar.gz .
     echo "2.0" > ${B}/debian-binary
 	cd ${B}
+	ls -l
 	ar -r ${R}/${PKG} ./debian-binary ./control.tar.gz ./data.tar.gz 
 	cd ${D}
 
