@@ -91,7 +91,6 @@ MakeIPK vhannibal.hotbird.and.dtt.roma hotbird.and.dtt.roma ${VER}
 MakeIPK vhannibal.hotbird.and.dtt.milano hotbird.and.dtt.milano ${VER}
 MakeIPK vhannibal.hotbird.and.dtt.napoli hotbird.and.dtt.napoli ${VER}
 MakeIPK vhannibal.hotbird.and.dtt.italia hotbird.and.dtt.italia ${VER}
-MakeIPK vhannibal.hotbird.and.dtt.forli hotbird.and.dtt.forli ${VER}
 
 MakeIPK vhannibal.dual.feeds dual.feeds ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.torino dual.feeds.and.dtt.torino ${VER}
@@ -99,7 +98,6 @@ MakeIPK vhannibal.dual.feeds.and.dtt.roma dual.feeds.and.dtt.roma ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.milano dual.feeds.and.dtt.milano ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.napoli dual.feeds.and.dtt.napoli ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.italia dual.feeds.and.dtt.italia ${VER}
-MakeIPK vhannibal.dual.feeds.and.dtt.forli dual.feeds.and.dtt.forli ${VER}
 
 PACKNAME="enigma2-plugin-settings-mr.mister"
 PACK="Mr Mister E2 Settings File"
