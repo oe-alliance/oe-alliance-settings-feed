@@ -2,18 +2,18 @@
 
 # Script by jbleyel for https://github.com/oe-alliance
 
-PVER="1.0"
-PR="r1"
+PVER="1.1"
+PR="r0"
 PACK="hans"
 LOCAL="local"
-GITREPRO="haroo/HansSettings"
+GITREPRO="technl/Hanssettings"
 PACKNAME="enigma2-plugin-settings-hans"
 D=$(pwd) &> /dev/null
 PD=${D}/$LOCAL
 B=${D}/build
 TMP=${D}/tmp
 R=${D}/feed
-Homepage="https://github.com/haroo/HansSettings"
+Homepage="https://github.com/technl/Hanssettings"
 
 function MakeIPK ()
 {
@@ -64,7 +64,7 @@ echo $GITHASH > $PACK.hash
 rm -rf ${PD}
 git clone --depth 1 ${Homepage} local
 
-VER="$PVER+git$GITCOMMITS+${GITHASH}_r0"
+VER="$PVER+git$GITCOMMITS+${GITHASH}_${PR}"
 
 mkdir -p ${R}
 
