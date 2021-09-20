@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Name: enigma2-plugin-settings-sat-matzesetting-astra-hotbird_210919_all.ipk
+
+if [ -e /etc/enigma2/userbouquet.favourites.tv.bak ];
+	then
+		mv /etc/enigma2/userbouquet.favourites.tv.bak /etc/enigma2/userbouquet.favourites.tv
+		grep -v "userbouquet.favourites.tv" /etc/enigma2/bouquets.tv >> /etc/enigma2/bouquets.tv.tmp
+		mv /etc/enigma2/bouquets.tv.tmp /etc/enigma2/bouquets.tv
+		sed '2i #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.favourites.tv" ORDER BY bouquet' /etc/enigma2/bouquets.tv > /etc/enigma2/bouquets.tv.tmp
+		mv /etc/enigma2/bouquets.tv.tmp /etc/enigma2/bouquets.tv
+fi
+
+if [ -e /etc/enigma2/userbouquet.favourites.radio.bak ];
+	then
+		mv /etc/enigma2/userbouquet.favourites.radio.bak /etc/enigma2/userbouquet.favourites.radio
+		grep -v "userbouquet.favourites.radio" /etc/enigma2/bouquets.radio >> /etc/enigma2/bouquets.radio.tmp
+		mv /etc/enigma2/bouquets.radio.tmp /etc/enigma2/bouquets.radio
+		sed '2i #SERVICE 1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "userbouquet.favourites.radio" ORDER BY bouquet' /etc/enigma2/bouquets.radio > /etc/enigma2/bouquets.radio.tmp
+		mv /etc/enigma2/bouquets.radio.tmp /etc/enigma2/bouquets.radio
+fi
+
+wget -q -O - http://127.0.0.1/web/servicelistreload?mode=0
+

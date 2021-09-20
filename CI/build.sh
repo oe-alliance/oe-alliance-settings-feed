@@ -17,6 +17,7 @@ commit_files() {
  ./CI/ciefp.sh
  ./CI/hans.sh
  ./CI/oe.sh
+ ./CI/matze.sh
 
  cd feed
  rm -f ./feed/Packages.gz &> /dev/null

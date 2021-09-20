@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Name: enigma2-plugin-settings-sat-matzesetting-astra-hotbird_version_all.ipk
+
+if grep -q "#SERVICE" /etc/enigma2/userbouquet.favourites.tv;
+	then
+		mv /etc/enigma2/userbouquet.favourites.tv /etc/enigma2/userbouquet.favourites.tv.bak
+fi
+
+if grep -q "#SERVICE" /etc/enigma2/userbouquet.favourites.radio;
+	then
+		mv /etc/enigma2/userbouquet.favourites.radio /etc/enigma2/userbouquet.favourites.radio.bak
+fi
+
+
