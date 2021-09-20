@@ -2,7 +2,7 @@
 
 [![oe-alliance plugins](https://github.com/oe-alliance/oe-alliance-settings-feed/actions/workflows/build.yml/badge.svg)](https://github.com/oe-alliance/oe-alliance-settings-feed/actions/workflows/build.yml)
 
-Autogerated Settings feed for E2 settings packages
+Autogerated Settings feed for E2 settings packages (based on Open Vision/Persian Prince's work)
 
 ## BUILD
 Daily update build of IPK files and the Package.gz to use as feed.
