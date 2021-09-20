@@ -19,3 +19,5 @@ HenksatSettings -> https://github.com/OpenPLi/HenksatSettings
 morpheus883 -> https://github.com/morpheus883/enigma2-settings
 
 vhannibal,mr.mister,malimali ->https://github.com/oe-alliance/oe-alliance-settings
+
+gioppygio -> https://github.com/OpenVisionE2/GioppyGio-settings
