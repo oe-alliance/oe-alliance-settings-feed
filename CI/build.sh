@@ -10,6 +10,7 @@ commit_files() {
  git clean -fd
  git checkout master
 
+ ./CI/gioppygio.sh
  ./CI/henksat.sh
  ./CI/gigablue.sh
  ./CI/morph883.sh
