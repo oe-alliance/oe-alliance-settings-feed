@@ -28,7 +28,9 @@ function MakeIPK ()
 
     mkdir -p ${TMP}/etc/enigma2/
     cp -rp ${PD}/$1/* ${TMP}/etc/enigma2/
-    cp -rp ${AU}/* ${TMP}/CONTROL/
+    if [ "${4}" == "AU" ]; then
+        cp -rp ${AU}/* ${TMP}/CONTROL/
+    fi
     
 cat > ${TMP}/CONTROL/control << EOF
 Package: ${PACKNAME}-${2}
@@ -73,6 +75,6 @@ mkdir -p ${R}
 
 rm -rf ${D}/feed/${PACKNAME}*.ipk
 
-MakeIPK enigma2-plugin-settings-matze-astra-hb astra-hotbird ${VER}
-MakeIPK enigma2-plugin-settings-matze-astra astra ${VER}
-MakeIPK enigma2-plugin-settings-matze-kabel-deutschland kabel-deutschland ${VER}
+MakeIPK enigma2-plugin-settings-matze-astra-hb astra-hotbird ${VER} "AU"
+MakeIPK enigma2-plugin-settings-matze-astra astra ${VER} "AU"
+MakeIPK enigma2-plugin-settings-matze-kabel-deutschland kabel-deutschland ${VER} ""
