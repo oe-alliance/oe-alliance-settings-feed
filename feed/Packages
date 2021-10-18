@@ -88,13 +88,28 @@ OE: enigma2-plugin-settings-henksat-23e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-trial-9e-13e-19e
-Version: 1.0+git42+d27eb07_r0
+Package: enigma2-plugin-settings-gioppygio-trial
+Version: 1.0+git43+db2ff3b_r0
 Section: base
 Architecture: all
-MD5Sum: 02a90826f32aa68f51aeda4f1f82facc
-Size: 92642
-Filename: enigma2-plugin-settings-gioppygio-trial-9e-13e-19e_1.0+git42+d27eb07_r0_all.ipk
+MD5Sum: 499ccfeb269e5fec1bd50821abed51d9
+Size: 94752
+Filename: enigma2-plugin-settings-gioppygio-trial_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings trial
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-trial
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-gioppygio-trial-9e-13e-19e
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: 733120d65b82926536310f14fe653b6b
+Size: 92480
+Filename: enigma2-plugin-settings-gioppygio-trial-9e-13e-19e_1.0+git43+db2ff3b_r0_all.ipk
 Description: gioppygio enigma2 settings trial-9e-13e-19e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
@@ -137,8 +152,8 @@ Package: enigma2-plugin-settings-gioppygio-dual
 Version: e9-13e
 Section: base
 Architecture: all
-MD5Sum: f11052451337f497e4e763fb0cf9ecfa
-Size: 62986
+MD5Sum: b92cd0d0606712f2ce545654e058d030
+Size: 61972
 Filename: enigma2-plugin-settings-gioppygio-dual_e9-13e_all.ipk
 Description: gioppygio enigma2 settings dual
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
@@ -163,21 +178,6 @@ OE: enigma2-plugin-settings-gigablue-42e-19e-13e-7e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-quadri
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: a03e41e4939b4ca0184f3a245b52dd19
-Size: 103460
-Filename: enigma2-plugin-settings-gioppygio-quadri_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings quadri
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-quadri
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w
 Version: 1.0+git182+578c73a_r0
 Section: base
@@ -190,21 +190,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/ciefp/ciefpsettings-enigma2
 OE: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-gioppygio-quadri-13e-19e-9e-5w
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: a5f3a5f733ac4d3deaaeb5adfdb08744
-Size: 104278
-Filename: enigma2-plugin-settings-gioppygio-quadri-13e-19e-9e-5w_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings quadri-13e-19e-9e-5w
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-quadri-13e-19e-9e-5w
 License: Proprietary
 
 
@@ -298,6 +283,21 @@ OE: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-gioppygio-motor
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: c10c4f1a880ae9c0fb64051e3fae9688
+Size: 356000
+Filename: enigma2-plugin-settings-gioppygio-motor_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings motor
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-motor
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-malimali.motor.42e.to.30w
 Version: 1.0+git5179+97a6d7d_r0
 Section: base
@@ -373,6 +373,21 @@ OE: enigma2-plugin-settings-malimali.19e
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-gioppygio-quadri-13e-19e-9e-5w
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: 86a8858ff899cf610f3238092b3b7f43
+Size: 104486
+Filename: enigma2-plugin-settings-gioppygio-quadri-13e-19e-9e-5w_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings quadri-13e-19e-9e-5w
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-quadri-13e-19e-9e-5w
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano
 Version: 1.0+git5350+aaaf471_r0
 Section: base
@@ -433,21 +448,6 @@ OE: enigma2-plugin-settings-morpheus883-13e-28.2e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-trial-13e-19e-30w
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: bfde4e6e5e2d9add4a67dd93261056c4
-Size: 84038
-Filename: enigma2-plugin-settings-gioppygio-trial-13e-19e-30w_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings trial-13e-19e-30w
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-trial-13e-19e-30w
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e
 Version: 1.0+git226+052b6c0_r0
 Section: base
@@ -463,18 +463,18 @@ OE: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-mono
-Version: 1.0+git42+d27eb07_r0
+Package: enigma2-plugin-settings-gioppygio-dual
+Version: 1.0+git43+db2ff3b_r0
 Section: base
 Architecture: all
-MD5Sum: 9a761e6cf32a51f71af660593fc097ea
-Size: 45948
-Filename: enigma2-plugin-settings-gioppygio-mono_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings mono
+MD5Sum: dd7e92108b1526fe3d4d2d97f8a264e3
+Size: 76192
+Filename: enigma2-plugin-settings-gioppygio-dual_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings dual
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-mono
+OE: enigma2-plugin-settings-gioppygio-dual
 License: Proprietary
 
 
@@ -643,6 +643,21 @@ OE: enigma2-plugin-settings-henksat-19e-23e
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-gioppygio-dual-5w-13e
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: 795b4df7a23c4b9e078c3794623fb87e
+Size: 56642
+Filename: enigma2-plugin-settings-gioppygio-dual-5w-13e_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings dual-5w-13e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-dual-5w-13e
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-morpheus883-9e-13e
 Version: 1.0+git226+052b6c0_r0
 Section: base
@@ -748,21 +763,6 @@ OE: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-motor
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: dc96b795eec7d20a993f3e0a8e70db4f
-Size: 355620
-Filename: enigma2-plugin-settings-gioppygio-motor_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings motor
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-motor
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma
 Version: 1.0+git5350+aaaf471_r0
 Section: base
@@ -790,21 +790,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-gioppygio-trial-5w-13e-19e
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: ff8bdd71be0559814093c70941e33202
-Size: 87070
-Filename: enigma2-plugin-settings-gioppygio-trial-5w-13e-19e_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings trial-5w-13e-19e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-trial-5w-13e-19e
 License: Proprietary
 
 
@@ -838,21 +823,6 @@ OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-dual-5w-13e
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: 996ef2b5391a88deda480acccc41f367
-Size: 57198
-Filename: enigma2-plugin-settings-gioppygio-dual-5w-13e_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings dual-5w-13e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-dual-5w-13e
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-ciefp-19e.16e.13e
 Version: 1.0+git182+578c73a_r0
 Section: base
@@ -865,21 +835,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/ciefp/ciefpsettings-enigma2
 OE: enigma2-plugin-settings-ciefp-19e.16e.13e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-gioppygio-dual_13e-19e-dtt-italia
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: 0265c3d323c632bdf668da580391989c
-Size: 81474
-Filename: enigma2-plugin-settings-gioppygio-dual_13e-19e-dtt-italia_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings dual_13e-19e-dtt-italia
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-dual_13e-19e-dtt-italia
 License: Proprietary
 
 
@@ -925,6 +880,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-malimali.13e.19e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-gioppygio-quadri-9e-13e-16e-19e
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: 1ce405b16f19ddf128243cb0271a788a
+Size: 114442
+Filename: enigma2-plugin-settings-gioppygio-quadri-9e-13e-16e-19e_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings quadri-9e-13e-16e-19e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-quadri-9e-13e-16e-19e
 License: Proprietary
 
 
@@ -1079,12 +1049,12 @@ License: Proprietary
 
 
 Package: enigma2-plugin-settings-gioppygio-mono-13e-dtt-talia
-Version: 1.0+git42+d27eb07_r0
+Version: 1.0+git43+db2ff3b_r0
 Section: base
 Architecture: all
-MD5Sum: c983291f43797726db26484b7e100d92
-Size: 50436
-Filename: enigma2-plugin-settings-gioppygio-mono-13e-dtt-talia_1.0+git42+d27eb07_r0_all.ipk
+MD5Sum: eda7aa04d3e6e3d109c8ab53c6b19e34
+Size: 50230
+Filename: enigma2-plugin-settings-gioppygio-mono-13e-dtt-talia_1.0+git43+db2ff3b_r0_all.ipk
 Description: gioppygio enigma2 settings mono-13e-dtt-talia
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
@@ -1258,21 +1228,6 @@ OE: enigma2-plugin-settings-mr.mister.multi.sat
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-quadri-9e-13e-16e-19e
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: fd97ec94f085b72d1b95467f3584c838
-Size: 112134
-Filename: enigma2-plugin-settings-gioppygio-quadri-9e-13e-16e-19e_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings quadri-9e-13e-16e-19e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-quadri-9e-13e-16e-19e
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-morpheus883-13e-16e
 Version: 1.0+git226+052b6c0_r0
 Section: base
@@ -1330,6 +1285,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-vhannibal.motor
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-gioppygio-trial-13e-19e-30w
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: f71736f0ce915920a17e441cd2ca25cd
+Size: 84876
+Filename: enigma2-plugin-settings-gioppygio-trial-13e-19e-30w_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings trial-13e-19e-30w
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-trial-13e-19e-30w
 License: Proprietary
 
 
@@ -1603,21 +1573,6 @@ OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-motor-75e-45w-dtt-italia
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: 9edf6aa4caf82055bb3506bb9a0d7ac8
-Size: 362784
-Filename: enigma2-plugin-settings-gioppygio-motor-75e-45w-dtt-italia_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings motor-75e-45w-dtt-italia
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-motor-75e-45w-dtt-italia
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-malimali.9e.13e.19e
 Version: 1.0+git5203+60bdae0_r0
 Section: base
@@ -1630,6 +1585,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-malimali.9e.13e.19e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-gioppygio-trial-5w-13e-19e
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: 9171a2f1545f77a0ff4a1dfa89c5f2fa
+Size: 86740
+Filename: enigma2-plugin-settings-gioppygio-trial-5w-13e-19e_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings trial-5w-13e-19e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-trial-5w-13e-19e
 License: Proprietary
 
 
@@ -1648,18 +1618,18 @@ OE: enigma2-plugin-settings-henksat-19e-23e-28e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-gioppygio-dual
-Version: 1.0+git42+d27eb07_r0
+Package: enigma2-plugin-settings-gioppygio-motor-75e-45w-dtt-italia
+Version: 1.0+git43+db2ff3b_r0
 Section: base
 Architecture: all
-MD5Sum: 78ae25df559858800c82310d178cd340
-Size: 76032
-Filename: enigma2-plugin-settings-gioppygio-dual_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings dual
+MD5Sum: 9c87ea7a694f6c22700720498f68df5c
+Size: 364252
+Filename: enigma2-plugin-settings-gioppygio-motor-75e-45w-dtt-italia_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings motor-75e-45w-dtt-italia
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-dual
+OE: enigma2-plugin-settings-gioppygio-motor-75e-45w-dtt-italia
 License: Proprietary
 
 
@@ -1693,6 +1663,36 @@ OE: enigma2-plugin-settings-vhannibal.trial
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-gioppygio-mono
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: 3b01d9d54950acc8b278b61d41c78b2d
+Size: 45468
+Filename: enigma2-plugin-settings-gioppygio-mono_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings mono
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-mono
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-gioppygio-dual_13e-19e-dtt-italia
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: d036eb318fbef52fefb8b8c1214d5590
+Size: 81406
+Filename: enigma2-plugin-settings-gioppygio-dual_13e-19e-dtt-italia_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings dual_13e-19e-dtt-italia
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-dual_13e-19e-dtt-italia
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-gigablue-wilhelmtel
 Version: 1.0+git64+36020fa_r0
 Section: base
@@ -1705,6 +1705,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/openmips/settings
 OE: enigma2-plugin-settings-gigablue-wilhelmtel
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-gioppygio-quadri
+Version: 1.0+git43+db2ff3b_r0
+Section: base
+Architecture: all
+MD5Sum: 8b429d0c8ca37e5080db4c9d0350b76d
+Size: 103244
+Filename: enigma2-plugin-settings-gioppygio-quadri_1.0+git43+db2ff3b_r0_all.ipk
+Description: gioppygio enigma2 settings quadri
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://picons.gioppygio.it/
+OE: enigma2-plugin-settings-gioppygio-quadri
 License: Proprietary
 
 
@@ -1735,21 +1750,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-malimali.13e.19e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-gioppygio-trial
-Version: 1.0+git42+d27eb07_r0
-Section: base
-Architecture: all
-MD5Sum: f6129403240c6bc2f4fb4abbc480d162
-Size: 94736
-Filename: enigma2-plugin-settings-gioppygio-trial_1.0+git42+d27eb07_r0_all.ipk
-Description: gioppygio enigma2 settings trial
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://picons.gioppygio.it/
-OE: enigma2-plugin-settings-gioppygio-trial
 License: Proprietary
 
 
