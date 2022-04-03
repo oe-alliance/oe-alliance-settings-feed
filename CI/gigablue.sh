@@ -6,14 +6,14 @@ PVER="1.0"
 PR="r1"
 PACK="gigablue"
 LOCAL="local"
-GITREPRO="openmips/settings"
+GITREPRO="teamblue-e2/settings"
 PACKNAME="enigma2-plugin-settings-gigablue"
 D=$(pwd) &> /dev/null
 PD=${D}/$LOCAL
 B=${D}/build
 TMP=${D}/tmp
 R=${D}/feed
-Homepage="https://github.com/openmips/settings"
+Homepage="https://github.com/teamblue-e2/settings"
 
 function MakeIPK ()
 {
@@ -70,13 +70,17 @@ mkdir -p ${R}
 
 rm -rf ${D}/feed/${PACKNAME}*.ipk
 
-MakeIPK gigablue_19e_13e_5e_75e 19e-13e-5e-75e ${VER}
-MakeIPK gigablue_19e_13e 19e-13e ${VER}
-MakeIPK gigablue_19e_16e_13e 19e-16e-13e ${VER}
 MakeIPK gigablue_19e 19e ${VER}
-MakeIPK gigablue_42e_19e_13e_7e 42e-19e-13e-7e ${VER}
-MakeIPK gigablue_42e_28e_23e_19e_16e_13e_7e_08w_30w 42e-28e-23e-19e-16e-13e-7e-08w-30w ${VER}
-MakeIPK gigablue_kabel_bw kabel-bw ${VER}
+MakeIPK gigablue_19e_13e 19e_13e ${VER}
+MakeIPK gigablue_19e_13e_23e_28e 19e_13e_23e_28e ${VER}
+MakeIPK gigablue_19e_13e_42e_28e_23e_4e_0w_30w 19e_13e_42e_28e_23e_4e_0w_30w ${VER}
+MakeIPK gigablue_42e_19e 42e_19e ${VER}
+MakeIPK gigablue_42e_19e_13e 42e_19e_13e ${VER}
+MakeIPK gigablue_42e_19e_13e_KD 42e_19e_13e_KD ${VER}
+MakeIPK gigablue_42e_19e_13e_UM 42e_19e_13e_UM ${VER}
+MakeIPK gigablue_42e_19e_13e_WT 42e_19e_13e_WT ${VER}
+MakeIPK gigablue_42e_19e_FTA 42e_19e_FTA ${VER}
 MakeIPK gigablue_kabeldeutschland kabeldeutschland ${VER}
-MakeIPK gigablue_unity_media unity-media ${VER}
+MakeIPK gigablue_tipico tipico ${VER}
+MakeIPK gigablue_unity_media unity_media ${VER}
 MakeIPK gigablue_wilhelmtel wilhelmtel ${VER}

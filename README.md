@@ -10,7 +10,7 @@ Daily update build of IPK files and the Package.gz to use as feed.
 ## CONTENT
 ciefp -> https://github.com/ciefp/ciefpsettings-enigma2
 
-gigablue -> https://github.com/openmips/settings
+gigablue -> https://github.com/teamblue-e2/settings
 
 HansSettings -> https://github.com/haroo/HansSettings
 
