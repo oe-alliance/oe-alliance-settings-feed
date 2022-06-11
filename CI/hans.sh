@@ -2,18 +2,19 @@
 
 # Script by jbleyel for https://github.com/oe-alliance
 
-PVER="1.1"
+PVER="1.2"
 PR="r0"
 PACK="hans"
 LOCAL="local"
-GITREPRO="technl/Hanssettings"
+GITREPRO="oe-mirrors/hanssettings"
 PACKNAME="enigma2-plugin-settings-hans"
 D=$(pwd) &> /dev/null
 PD=${D}/$LOCAL
 B=${D}/build
 TMP=${D}/tmp
 R=${D}/feed
-Homepage="https://github.com/technl/Hanssettings"
+Homepage="https://gitlab.openpli.org/openpli/hanssettings"
+GitSource="https://github.com/oe-mirrors/hanssettings"
 
 function MakeIPK ()
 {
@@ -62,7 +63,7 @@ if [ "$OLDHASH" == "$GITHASH" ]; then
 fi
 echo $GITHASH > $PACK.hash
 rm -rf ${PD}
-git clone --depth 1 ${Homepage} local
+git clone --depth 1 ${GitSource} local
 
 VER="$PVER+git$GITCOMMITS+${GITHASH}_${PR}"
 
