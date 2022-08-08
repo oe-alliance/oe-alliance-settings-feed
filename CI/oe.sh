@@ -99,14 +99,6 @@ MakeIPK vhannibal.dual.feeds.and.dtt.milano dual.feeds.and.dtt.milano ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.napoli dual.feeds.and.dtt.napoli ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.italia dual.feeds.and.dtt.italia ${VER}
 
-PACKNAME="enigma2-plugin-settings-mr.mister"
-PACK="Mr Mister E2 Settings File"
-
-rm -rf ${P}/${PACKNAME}*.ipk
-
-#MakeIPK mr.mister.multi.sat multi.sat ${VER}
-#MakeIPK mr.mister.28.2e 28.2e ${VER}
-
 PACKNAME="enigma2-plugin-settings-malimali"
 PACK="Malimali E2 Settings File"
 
