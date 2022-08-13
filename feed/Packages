@@ -193,18 +193,18 @@ OE: enigma2-plugin-settings-malimali.13e.16e.19e.28e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-hans-19e-23e-basis
-Version: 1.2+git22+b962410_r0
+Package: enigma2-plugin-settings-hans-13e-19e-23e-28e
+Version: 1.3+git17+c662c17_r0
 Section: base
 Architecture: all
-MD5Sum: e373df8c9bd5b2e4763de6d39526e269
-Size: 40060
-Filename: enigma2-plugin-settings-hans-19e-23e-basis_1.2+git22+b962410_r0_all.ipk
-Description: hans enigma2 settings 19e-23e-basis
+MD5Sum: 8b5a6bf45550ebd93d80160863550e53
+Size: 885952
+Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e_1.3+git17+c662c17_r0_all.ipk
+Description: hans enigma2 settings 13e-19e-23e-28e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
-Source: https://gitlab.openpli.org/openpli/hanssettings
-OE: enigma2-plugin-settings-hans-19e-23e-basis
+Source: https://gitlab.openpli.org/openpli/hanssettings.git
+OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
 License: Proprietary
 
 
@@ -328,6 +328,21 @@ OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-hans-19e-23e-28e
+Version: 1.3+git17+c662c17_r0
+Section: base
+Architecture: all
+MD5Sum: a024d2a7ce9a7e0c9aa2321ee994cc19
+Size: 855384
+Filename: enigma2-plugin-settings-hans-19e-23e-28e_1.3+git17+c662c17_r0_all.ipk
+Description: hans enigma2 settings 19e-23e-28e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://gitlab.openpli.org/openpli/hanssettings.git
+OE: enigma2-plugin-settings-hans-19e-23e-28e
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-malimali.13e
 Version: 1.0+git5179+97a6d7d_r0
 Section: base
@@ -355,21 +370,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-malimali.3e.7e.9e.13e.16e.19e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
-Version: 1.2+git22+b962410_r0
-Section: base
-Architecture: all
-MD5Sum: 88f70abb3cce76d5777b19e0517904c9
-Size: 1158628
-Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating_1.2+git22+b962410_r0_all.ipk
-Description: hans enigma2 settings 9e-13e-19e-23e-28e-rotating
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://gitlab.openpli.org/openpli/hanssettings
-OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
 License: Proprietary
 
 
@@ -613,21 +613,6 @@ OE: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
-Version: 1.2+git22+b962410_r0
-Section: base
-Architecture: all
-MD5Sum: 8679bf6af1adea42d82dbbb9a9cdba39
-Size: 880138
-Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e_1.2+git22+b962410_r0_all.ipk
-Description: hans enigma2 settings 9e-13e-19e-23e-28e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://gitlab.openpli.org/openpli/hanssettings
-OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e
 Version: 1.0+git288+38607c9_r0
 Section: base
@@ -640,36 +625,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
 OE: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-hans-19e-23e-28e
-Version: 1.2+git22+b962410_r0
-Section: base
-Architecture: all
-MD5Sum: 6e6b4d7a2647c89d95f7a65d9ba22b52
-Size: 842346
-Filename: enigma2-plugin-settings-hans-19e-23e-28e_1.2+git22+b962410_r0_all.ipk
-Description: hans enigma2 settings 19e-23e-28e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://gitlab.openpli.org/openpli/hanssettings
-OE: enigma2-plugin-settings-hans-19e-23e-28e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-hans-13e-19e-23e-28e
-Version: 1.2+git22+b962410_r0
-Section: base
-Architecture: all
-MD5Sum: 02e858e3edf2a6ae9e1004e4799d8511
-Size: 873012
-Filename: enigma2-plugin-settings-hans-13e-19e-23e-28e_1.2+git22+b962410_r0_all.ipk
-Description: hans enigma2 settings 13e-19e-23e-28e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://gitlab.openpli.org/openpli/hanssettings
-OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
 License: Proprietary
 
 
@@ -733,6 +688,21 @@ OE: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+Version: 1.3+git17+c662c17_r0
+Section: base
+Architecture: all
+MD5Sum: 8827f22d37a15030872622a53f18dc6c
+Size: 1234666
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating_1.3+git17+c662c17_r0_all.ipk
+Description: hans enigma2 settings 9e-13e-19e-23e-28e-rotating
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://gitlab.openpli.org/openpli/hanssettings.git
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e
 Version: 1.0+git288+38607c9_r0
 Section: base
@@ -745,6 +715,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
 OE: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-hans-19e-23e-basis
+Version: 1.3+git17+c662c17_r0
+Section: base
+Architecture: all
+MD5Sum: 41f890184be7f99fe42c796119b3fb59
+Size: 39224
+Filename: enigma2-plugin-settings-hans-19e-23e-basis_1.3+git17+c662c17_r0_all.ipk
+Description: hans enigma2 settings 19e-23e-basis
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://gitlab.openpli.org/openpli/hanssettings.git
+OE: enigma2-plugin-settings-hans-19e-23e-basis
 License: Proprietary
 
 
@@ -1063,6 +1048,21 @@ OE: enigma2-plugin-settings-gigablue-unity_media
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+Version: 1.3+git17+c662c17_r0
+Section: base
+Architecture: all
+MD5Sum: aa47214f419110e78b86ff83fa376ef4
+Size: 893178
+Filename: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e_1.3+git17+c662c17_r0_all.ipk
+Description: hans enigma2 settings 9e-13e-19e-23e-28e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://gitlab.openpli.org/openpli/hanssettings.git
+OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-gigablue-wilhelmtel
 Version: 1.0+git66+5d87b2c_r0
 Section: base
@@ -1123,6 +1123,21 @@ OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-hans-kabelNL
+Version: 1.3+git17+c662c17_r0
+Section: base
+Architecture: all
+MD5Sum: 50859a19a6bd2ccaf8c4dfb8fcfbed42
+Size: 800090
+Filename: enigma2-plugin-settings-hans-kabelNL_1.3+git17+c662c17_r0_all.ipk
+Description: hans enigma2 settings kabelNL
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://gitlab.openpli.org/openpli/hanssettings.git
+OE: enigma2-plugin-settings-hans-kabelNL
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-henksat-19e
 Version: 1.0+git66+149aa85_r0
 Section: base
@@ -1180,21 +1195,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/OpenPLi/HenksatSettings
 OE: enigma2-plugin-settings-henksat-rotating
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-hans-kabelNL
-Version: 1.2+git22+b962410_r0
-Section: base
-Architecture: all
-MD5Sum: 3866c0e08b7d5abd5a868eb0d0dfc661
-Size: 787286
-Filename: enigma2-plugin-settings-hans-kabelNL_1.2+git22+b962410_r0_all.ipk
-Description: hans enigma2 settings kabelNL
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://gitlab.openpli.org/openpli/hanssettings
-OE: enigma2-plugin-settings-hans-kabelNL
 License: Proprietary
 
 
