@@ -2,19 +2,18 @@
 
 # Script by jbleyel for https://github.com/oe-alliance
 
-PVER="1.2"
+PVER="1.3"
 PR="r0"
 PACK="hans"
 LOCAL="local"
-GITREPRO="oe-mirrors/hanssettings"
+GITREPRO="technl/Hanssettings"
 PACKNAME="enigma2-plugin-settings-hans"
 D=$(pwd) &> /dev/null
 PD=${D}/$LOCAL
 B=${D}/build
 TMP=${D}/tmp
 R=${D}/feed
-Homepage="https://gitlab.openpli.org/openpli/hanssettings"
-GitSource="https://github.com/oe-mirrors/hanssettings"
+Homepage="https://gitlab.openpli.org/openpli/hanssettings.git"
 
 function MakeIPK ()
 {
@@ -53,17 +52,18 @@ EOF
 	cd ${D}
 
 }
-
-GITCOMMITS=$(curl  --silent -I -k "https://api.github.com/repos/$GITREPRO/commits?per_page=1" | sed -n '/^[Ll]ink:/ s/.*"next".*page=\([0-9]*\).*"last".*/\1/p')
-GITHASH=$(git ls-remote https://github.com/$GITREPRO HEAD | sed -e 's/^\(.\{7\}\).*/\1/')
+GITHASH=$(git ls-remote $Homepage HEAD | sed -e 's/^\(.\{7\}\).*/\1/')
 OLDHASH=$(head -n 1 $PACK.hash 2>/dev/null)
-
 if [ "$OLDHASH" == "$GITHASH" ]; then
     exit 0
 fi
 echo $GITHASH > $PACK.hash
 rm -rf ${PD}
-git clone --depth 1 ${GitSource} local
+git clone ${Homepage} local
+
+cd local
+GITCOMMITS=$(git rev-list --count master)
+cd ..
 
 VER="$PVER+git$GITCOMMITS+${GITHASH}_${PR}"
 
