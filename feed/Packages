@@ -28,21 +28,6 @@ OE: enigma2-plugin-settings-vhannibal.motor
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w
-Version: 1.0+git223+dc262ca_r0
-Section: base
-Architecture: all
-MD5Sum: bcb743bda34e2b31880223ad6a6a033c
-Size: 357730
-Filename: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings 19e.16e.13e.0.8w
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-gigablue-42e_19e
 Version: 1.0+git66+5d87b2c_r0
 Section: base
@@ -223,6 +208,21 @@ OE: enigma2-plugin-settings-gigablue-19e
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-ciefp-19e.16e.13e
+Version: 1.0+git227+e34cae6_r0
+Section: base
+Architecture: all
+MD5Sum: a67354150b7b29971155736581b64654
+Size: 335420
+Filename: enigma2-plugin-settings-ciefp-19e.16e.13e_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings 19e.16e.13e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/ciefp/ciefpsettings-enigma2
+OE: enigma2-plugin-settings-ciefp-19e.16e.13e
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-henksat-rotating
 Version: 1.0+git66+149aa85_r0
 Section: base
@@ -370,21 +370,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://gitlab.openpli.org/openpli/hanssettings.git
 OE: enigma2-plugin-settings-hans-19e-23e-28e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-ciefp-19e.16e
-Version: 1.0+git223+dc262ca_r0
-Section: base
-Architecture: all
-MD5Sum: 90c4d25afa6ce8e7e611a19b8b0069a2
-Size: 303202
-Filename: enigma2-plugin-settings-ciefp-19e.16e_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings 19e.16e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-19e.16e
 License: Proprietary
 
 
@@ -583,6 +568,21 @@ OE: enigma2-plugin-settings-morpheus883-9e-13e
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w
+Version: 1.0+git227+e34cae6_r0
+Section: base
+Architecture: all
+MD5Sum: 3c85af1cdb1bc2e4ab4f46e42afcc48b
+Size: 388290
+Filename: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings 23e.19e.16e.13e.1.9e.0.8w
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/ciefp/ciefpsettings-enigma2
+OE: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e-28.2e
 Version: 1.0+git308+7c1f5e5_r0
 Section: base
@@ -629,12 +629,12 @@ License: Proprietary
 
 
 Package: enigma2-plugin-settings-ciefp-19e
-Version: 1.0+git223+dc262ca_r0
+Version: 1.0+git227+e34cae6_r0
 Section: base
 Architecture: all
-MD5Sum: db9366a21e33c8b48e2a09129dd48fdd
-Size: 283800
-Filename: enigma2-plugin-settings-ciefp-19e_1.0+git223+dc262ca_r0_all.ipk
+MD5Sum: 28fef3ff3104f936bf7eaf7b7b82bf91
+Size: 286072
+Filename: enigma2-plugin-settings-ciefp-19e_1.0+git227+e34cae6_r0_all.ipk
 Description: ciefp enigma2 settings 19e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
@@ -670,21 +670,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-malimali.13e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w
-Version: 1.0+git223+dc262ca_r0
-Section: base
-Architecture: all
-MD5Sum: c31b29e21a18f6a5563659c73ec25f9e
-Size: 385964
-Filename: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings 23e.19e.16e.13e.1.9e.0.8w
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-23e.19e.16e.13e.1.9e.0.8w
 License: Proprietary
 
 
@@ -868,6 +853,21 @@ OE: enigma2-plugin-settings-matze-astra
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-ciefp-motor.68e.30w.vod
+Version: 1.0+git227+e34cae6_r0
+Section: base
+Architecture: all
+MD5Sum: e80be6b5ffcd852242de3d92008ad908
+Size: 527040
+Filename: enigma2-plugin-settings-ciefp-motor.68e.30w.vod_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings motor.68e.30w.vod
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/ciefp/ciefpsettings-enigma2
+OE: enigma2-plugin-settings-ciefp-motor.68e.30w.vod
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-morpheus883-motor
 Version: 1.0+git308+7c1f5e5_r0
 Section: base
@@ -898,21 +898,6 @@ OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-ciefp-39e.23e.19e.16e.13e.4.8e.1.9e.0.8w
-Version: 1.0+git223+dc262ca_r0
-Section: base
-Architecture: all
-MD5Sum: cf05e6af25e247805a3c2bba9d406d30
-Size: 427760
-Filename: enigma2-plugin-settings-ciefp-39e.23e.19e.16e.13e.4.8e.1.9e.0.8w_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings 39e.23e.19e.16e.13e.4.8e.1.9e.0.8w
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-39e.23e.19e.16e.13e.4.8e.1.9e.0.8w
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-malimali.9e.13e.19e
 Version: 1.0+git5203+60bdae0_r0
 Section: base
@@ -940,6 +925,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-ciefp-39e.23e.19e.16e.13e.4.8e.1.9e.0.8w
+Version: 1.0+git227+e34cae6_r0
+Section: base
+Architecture: all
+MD5Sum: 3476e96f6b8cd364cce5c9fc41b10ff5
+Size: 431468
+Filename: enigma2-plugin-settings-ciefp-39e.23e.19e.16e.13e.4.8e.1.9e.0.8w_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings 39e.23e.19e.16e.13e.4.8e.1.9e.0.8w
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/ciefp/ciefpsettings-enigma2
+OE: enigma2-plugin-settings-ciefp-39e.23e.19e.16e.13e.4.8e.1.9e.0.8w
 License: Proprietary
 
 
@@ -1048,6 +1048,21 @@ OE: enigma2-plugin-settings-gigablue-42e_19e_13e_WT
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w
+Version: 1.0+git227+e34cae6_r0
+Section: base
+Architecture: all
+MD5Sum: 9ee09d5db1f466508ff7d3659258db50
+Size: 366210
+Filename: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings 19e.16e.13e.1.9e.0.8w
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/ciefp/ciefpsettings-enigma2
+OE: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-henksat-ziggo
 Version: 1.0+git66+149aa85_r0
 Section: base
@@ -1093,21 +1108,6 @@ OE: enigma2-plugin-settings-gigablue-42e_19e_13e_KD
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-ciefp-19e.16e.13e
-Version: 1.0+git223+dc262ca_r0
-Section: base
-Architecture: all
-MD5Sum: 6fa39c2a9e19438dafe51c19c801b383
-Size: 332940
-Filename: enigma2-plugin-settings-ciefp-19e.16e.13e_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings 19e.16e.13e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-19e.16e.13e
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e
 Version: 1.0+git308+7c1f5e5_r0
 Section: base
@@ -1120,6 +1120,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
 OE: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-ciefp-28e.23e.19e.16e.13e.4.8e.1.9e.0.8w
+Version: 1.0+git227+e34cae6_r0
+Section: base
+Architecture: all
+MD5Sum: a76ff5dce990e6f133f0e580e1b2c83e
+Size: 400386
+Filename: enigma2-plugin-settings-ciefp-28e.23e.19e.16e.13e.4.8e.1.9e.0.8w_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings 28e.23e.19e.16e.13e.4.8e.1.9e.0.8w
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/ciefp/ciefpsettings-enigma2
+OE: enigma2-plugin-settings-ciefp-28e.23e.19e.16e.13e.4.8e.1.9e.0.8w
 License: Proprietary
 
 
@@ -1255,21 +1270,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/OpenPLi/HenksatSettings
 OE: enigma2-plugin-settings-henksat-13e-19e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-ciefp-motor.68e.30w.vod
-Version: 1.0+git223+dc262ca_r0
-Section: base
-Architecture: all
-MD5Sum: b68ebaa4228b2afe96ca4bc9eae0d85c
-Size: 530676
-Filename: enigma2-plugin-settings-ciefp-motor.68e.30w.vod_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings motor.68e.30w.vod
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-motor.68e.30w.vod
 License: Proprietary
 
 
@@ -1513,21 +1513,6 @@ OE: enigma2-plugin-settings-gigablue-unity_media
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w
-Version: 1.0+git223+dc262ca_r0
-Section: base
-Architecture: all
-MD5Sum: 0cde961e5e8a64375bf8e9260fa0d732
-Size: 363964
-Filename: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings 19e.16e.13e.1.9e.0.8w
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-malimali.19e
 Version: 1.0+git5179+97a6d7d_r0
 Section: base
@@ -1573,18 +1558,33 @@ OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-ciefp-28e.23e.19e.16e.13e.4.8e.1.9e.0.8w
-Version: 1.0+git223+dc262ca_r0
+Package: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w
+Version: 1.0+git227+e34cae6_r0
 Section: base
 Architecture: all
-MD5Sum: 1567ba2dc6092b5fa1c852a0a0bc5fd9
-Size: 397652
-Filename: enigma2-plugin-settings-ciefp-28e.23e.19e.16e.13e.4.8e.1.9e.0.8w_1.0+git223+dc262ca_r0_all.ipk
-Description: ciefp enigma2 settings 28e.23e.19e.16e.13e.4.8e.1.9e.0.8w
+MD5Sum: d461037226ab1495c43e937416ee8776
+Size: 360554
+Filename: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings 19e.16e.13e.0.8w
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/ciefp/ciefpsettings-enigma2
-OE: enigma2-plugin-settings-ciefp-28e.23e.19e.16e.13e.4.8e.1.9e.0.8w
+OE: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-ciefp-19e.16e
+Version: 1.0+git227+e34cae6_r0
+Section: base
+Architecture: all
+MD5Sum: 6370e4af562e6cbd06cdb45880d6eb0e
+Size: 305218
+Filename: enigma2-plugin-settings-ciefp-19e.16e_1.0+git227+e34cae6_r0_all.ipk
+Description: ciefp enigma2 settings 19e.16e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/ciefp/ciefpsettings-enigma2
+OE: enigma2-plugin-settings-ciefp-19e.16e
 License: Proprietary
 
 
