@@ -11,12 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install prerequisites
+        run: |
+          sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+          sudo apt-get -q update
+          sudo apt-get install openjdk-11-jdk
+
       - uses: actions/checkout@v2
         with:
           ref: 'master'
 
       - name: Build
         run: |
-          sudo apt-get -q update
-          sudo apt-get install openjdk-11-jdk
           ./CI/build.sh
