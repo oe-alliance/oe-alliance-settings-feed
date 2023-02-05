@@ -98,18 +98,3 @@ MakeIPK vhannibal.dual.feeds.and.dtt.roma dual.feeds.and.dtt.roma ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.milano dual.feeds.and.dtt.milano ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.napoli dual.feeds.and.dtt.napoli ${VER}
 MakeIPK vhannibal.dual.feeds.and.dtt.italia dual.feeds.and.dtt.italia ${VER}
-
-PACKNAME="enigma2-plugin-settings-malimali"
-PACK="Malimali E2 Settings File"
-
-rm -rf ${P}/${PACKNAME}*.ipk
-
-#MakeIPK malimali.motor.42e.to.30w motor.42e.to.30w ${VER}
-#MakeIPK malimali.9e.13e.19e 9e.13e.19e ${VER}
-#MakeIPK malimali.3e.7e.9e.13e.16e.19e 3e.7e.9e.13e.16e.19e ${VER}
-#MakeIPK malimali.39e.28e.26e.23e.19e.16e.13e.7e.0.8w 39e.28e.26e.23e.19e.16e.13e.7e.0.8w ${VER}
-#MakeIPK malimali.39e.28e.23e.19e.16e.13e.0.8w 39e.28e.23e.19e.16e.13e.0.8w ${VER}
-#MakeIPK malimali.19e 19e ${VER}
-#MakeIPK malimali.13e 13e ${VER}
-#MakeIPK malimali.13e.19e 13e.19e ${VER}
-#MakeIPK malimali.13e.16e.19e.28e 13e.16e.19e.28e ${VER}
