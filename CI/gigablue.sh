@@ -72,6 +72,7 @@ rm -rf ${D}/feed/${PACKNAME}*.ipk
 
 MakeIPK gigablue_19e 19e ${VER}
 MakeIPK gigablue_19e_13e 19e_13e ${VER}
+MakeIPK gigablue_19e_13e_0w 19e_13e_0w ${VER}
 MakeIPK gigablue_19e_13e_23e_28e 19e_13e_23e_28e ${VER}
 MakeIPK gigablue_19e_13e_42e_28e_23e_4e_0w_30w 19e_13e_42e_28e_23e_4e_0w_30w ${VER}
 MakeIPK gigablue_42e_19e 42e_19e ${VER}
