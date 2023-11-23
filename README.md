@@ -1,3 +1,9 @@
+# DEPRECATED
+
+This repro is deprecated and will be shut down by end of 2023
+
+The successor is -> https://github.com/oe-alliance/enigma2-settings-feed
+
 # oe-alliance-settings-feed
 
 [![oe-alliance plugins](https://github.com/oe-alliance/oe-alliance-settings-feed/actions/workflows/build.yml/badge.svg)](https://github.com/oe-alliance/oe-alliance-settings-feed/actions/workflows/build.yml)
