@@ -1,18 +1,3 @@
-Package: enigma2-plugin-settings-matze-kabel-deutschland
-Version: 1.0+git23+13df81b_r0
-Section: base
-Architecture: all
-MD5Sum: 9eec9926449d74ca7835ba0a30c0f9fd
-Size: 10094
-Filename: enigma2-plugin-settings-matze-kabel-deutschland_1.0+git23+13df81b_r0_all.ipk
-Description: matze enigma2 settings kabel-deutschland
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://matzesetting.brinkster.net/
-OE: enigma2-plugin-settings-matze-kabel-deutschland
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-morpheus883-9e-13e
 Version: 1.0+git363+3d8f7bb_r0
 Section: base
@@ -25,6 +10,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
 OE: enigma2-plugin-settings-morpheus883-9e-13e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-matze-astra-hotbird
+Version: 1.0+git24+43588ad_r0
+Section: base
+Architecture: all
+MD5Sum: 5747993c320410349764b1bd299402ed
+Size: 51512
+Filename: enigma2-plugin-settings-matze-astra-hotbird_1.0+git24+43588ad_r0_all.ipk
+Description: matze enigma2 settings astra-hotbird
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://matzesetting.brinkster.net/
+OE: enigma2-plugin-settings-matze-astra-hotbird
 License: Proprietary
 
 
@@ -553,6 +553,21 @@ OE: enigma2-plugin-settings-morpheus883-13e-16e-19.2e
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-matze-astra
+Version: 1.0+git24+43588ad_r0
+Section: base
+Architecture: all
+MD5Sum: 37e7bc81ca0eee7b7fb5840d2c7fccab
+Size: 26240
+Filename: enigma2-plugin-settings-matze-astra_1.0+git24+43588ad_r0_all.ipk
+Description: matze enigma2 settings astra
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://matzesetting.brinkster.net/
+OE: enigma2-plugin-settings-matze-astra
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-gigablue-19e_13e_42e_28e_23e_4e_0w_30w
 Version: 1.0+git67+c85005f_r0
 Section: base
@@ -565,21 +580,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/teamblue-e2/settings
 OE: enigma2-plugin-settings-gigablue-19e_13e_42e_28e_23e_4e_0w_30w
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-matze-astra
-Version: 1.0+git23+13df81b_r0
-Section: base
-Architecture: all
-MD5Sum: dcda21595ea8554c9932926bd7c2703b
-Size: 26010
-Filename: enigma2-plugin-settings-matze-astra_1.0+git23+13df81b_r0_all.ipk
-Description: matze enigma2 settings astra
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://matzesetting.brinkster.net/
-OE: enigma2-plugin-settings-matze-astra
 License: Proprietary
 
 
@@ -610,21 +610,6 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/OpenPLi/HenksatSettings
 OE: enigma2-plugin-settings-henksat-wavefrontier
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-matze-astra-hotbird
-Version: 1.0+git23+13df81b_r0
-Section: base
-Architecture: all
-MD5Sum: 51a8e355f3259b97cbcd689d48e1dd0e
-Size: 52420
-Filename: enigma2-plugin-settings-matze-astra-hotbird_1.0+git23+13df81b_r0_all.ipk
-Description: matze enigma2 settings astra-hotbird
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: http://matzesetting.brinkster.net/
-OE: enigma2-plugin-settings-matze-astra-hotbird
 License: Proprietary
 
 
@@ -850,6 +835,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/OpenPLi/HenksatSettings
 OE: enigma2-plugin-settings-henksat-19e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-matze-kabel-deutschland
+Version: 1.0+git24+43588ad_r0
+Section: base
+Architecture: all
+MD5Sum: bab1ef7b291db3dd06e28c876fb5b9ad
+Size: 10120
+Filename: enigma2-plugin-settings-matze-kabel-deutschland_1.0+git24+43588ad_r0_all.ipk
+Description: matze enigma2 settings kabel-deutschland
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: http://matzesetting.brinkster.net/
+OE: enigma2-plugin-settings-matze-kabel-deutschland
 License: Proprietary
 
 
