@@ -28,22 +28,22 @@ function MakeIPK ()
     cp -rp ${PD}/$1/* ${TMP}/etc/enigma2/
 
 cat > ${TMP}/CONTROL/control << EOF
-Package: ${PACKNAME}-${2}
+Package: ${PACKNAME}-${1/gigablue_}
 Version: ${3}
-Description: ${PACK} enigma2 settings ${2}
+Description: ${PACK} enigma2 settings ${1/gigablue_}
 Section: base
 Priority: optional
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 License: Proprietary
 Architecture: all
-OE: ${PACKNAME}-${2}
+OE: ${PACKNAME}-${1/gigablue_}
 Source: ${Homepage}
 EOF
 
 	tar -C ${TMP}/CONTROL -czf ${B}/control.tar.gz .
 	rm -rf ${TMP}/CONTROL
 
-    PKG="${PACKNAME}-${2}_${3}_all.ipk"
+    PKG="${PACKNAME}-${1/gigablue_}_${2}_all.ipk"
     tar -C ${TMP} -czf ${B}/data.tar.gz .
     echo "2.0" > ${B}/debian-binary
 	cd ${B}
@@ -70,18 +70,11 @@ mkdir -p ${R}
 
 rm -rf ${D}/feed/${PACKNAME}*.ipk
 
-MakeIPK gigablue_19e 19e ${VER}
-MakeIPK gigablue_19e_13e 19e_13e ${VER}
-MakeIPK gigablue_19e_13e_0w 19e_13e_0w ${VER}
-MakeIPK gigablue_19e_13e_23e_28e 19e_13e_23e_28e ${VER}
-MakeIPK gigablue_19e_13e_42e_28e_23e_4e_0w_30w 19e_13e_42e_28e_23e_4e_0w_30w ${VER}
-MakeIPK gigablue_42e_19e 42e_19e ${VER}
-MakeIPK gigablue_42e_19e_13e 42e_19e_13e ${VER}
-MakeIPK gigablue_42e_19e_13e_KD 42e_19e_13e_KD ${VER}
-MakeIPK gigablue_42e_19e_13e_UM 42e_19e_13e_UM ${VER}
-MakeIPK gigablue_42e_19e_13e_WT 42e_19e_13e_WT ${VER}
-MakeIPK gigablue_42e_19e_FTA 42e_19e_FTA ${VER}
-MakeIPK gigablue_kabeldeutschland kabeldeutschland ${VER}
-MakeIPK gigablue_tipico tipico ${VER}
-MakeIPK gigablue_unity_media unity_media ${VER}
-MakeIPK gigablue_wilhelmtel wilhelmtel ${VER}
+MakeIPK gigablue_19e_13e ${VER}
+MakeIPK gigablue_19e_13e_42e_fta ${VER}
+MakeIPK gigablue_42e_19e_13e_KD ${VER}
+MakeIPK gigablue_unity_media ${VER}
+MakeIPK gigablue_19e ${VER}
+MakeIPK gigablue_19e_13e_42e_16e_23e_0w ${VER}
+MakeIPK gigablue_42e_19e_13e ${VER}
+MakeIPK gigablue_kabeldeutschland ${VER}
