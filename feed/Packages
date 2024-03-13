@@ -13,6 +13,21 @@ OE: enigma2-plugin-settings-ciefp-19e.16e.13e.0.8w
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-morpheus883-0.8w-13e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: 5af6e26d78f062705cfec86c3b9f3d28
+Size: 68746
+Filename: enigma2-plugin-settings-morpheus883-0.8w-13e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 0.8w-13e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-0.8w-13e
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-henksat-13e-19e-23e-28e-4.8e-0.8w
 Version: 1.0+git66+149aa85_r0
 Section: base
@@ -28,48 +43,18 @@ OE: enigma2-plugin-settings-henksat-13e-19e-23e-28e-4.8e-0.8w
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-13e-42e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: f3d3a09f14bdde822e0e9fe9e3223e93
-Size: 64900
-Filename: enigma2-plugin-settings-morpheus883-13e-42e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-42e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-42e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-morpheus883-13e-19.2e-23.5e
-Version: 1.0+git375+e9f17d2_r0
-Section: base
-Architecture: all
-MD5Sum: 1830f10fc011411190440a9794d0f3f0
-Size: 93284
-Filename: enigma2-plugin-settings-morpheus883-13e-19.2e-23.5e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-19.2e-23.5e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-19.2e-23.5e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: b828af662c6be0b79f6e8bcbf26b3814
-Size: 423258
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File motor.and.dtt.napoli
+MD5Sum: a6adf7c92cf9be3c7ee2475fc15671a8
+Size: 193682
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File dual.feeds.and.dtt.torino
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli
+OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino
 License: Proprietary
 
 
@@ -88,28 +73,28 @@ OE: enigma2-plugin-settings-gigablue-42e_19e_13e_KD
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-motor
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 5167f3db32dce620753a635cbaa12310
-Size: 389066
-Filename: enigma2-plugin-settings-morpheus883-motor_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings motor
+MD5Sum: 1d18b30a8766a01140387f4c86971384
+Size: 432420
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File motor.and.dtt.torino
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-motor
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino
 License: Proprietary
 
 
 Package: enigma2-plugin-settings-morpheus883-13e-19.2e-42e
-Version: 1.0+git375+e9f17d2_r0
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 3c3ecc3998d17becf53ab0e623016ceb
-Size: 96230
-Filename: enigma2-plugin-settings-morpheus883-13e-19.2e-42e_1.0+git375+e9f17d2_r0_all.ipk
+MD5Sum: 1923fb0ec363a771f9a6a38fd17838f6
+Size: 96202
+Filename: enigma2-plugin-settings-morpheus883-13e-19.2e-42e_1.0+git376+58f48ab_r0_all.ipk
 Description: morpheus883 enigma2 settings 13e-19.2e-42e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
@@ -130,6 +115,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/OpenPLi/HenksatSettings
 OE: enigma2-plugin-settings-henksat-23e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: 8ec8a819445fd7e111b645a62748739a
+Size: 200872
+Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File quad.7e.13e.19e.42e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e
 License: Proprietary
 
 
@@ -163,48 +163,33 @@ OE: enigma2-plugin-settings-henksat-19e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-13e-23.5e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 8f301a27e890d6b3fa8831b810da013c
-Size: 62208
-Filename: enigma2-plugin-settings-morpheus883-13e-23.5e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-23.5e
+MD5Sum: 943a722edf2860ccec8729de2874a04e
+Size: 100004
+Filename: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 0.8w-13e-19.2e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-23.5e
+OE: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-13e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e-28.2e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 196e6dee74d62cba40fd13c07e2af51c
-Size: 43326
-Filename: enigma2-plugin-settings-morpheus883-13e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e
+MD5Sum: eebd4ead915767ced7b52e7e774e88f9
+Size: 119662
+Filename: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e-28.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 0.8w-13e-19.2e-28.2e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: b6cbb76d84d6be9febca1adb12452faf
-Size: 193684
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File dual.feeds.and.dtt.torino
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino
+OE: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e-28.2e
 License: Proprietary
 
 
@@ -238,21 +223,6 @@ OE: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: 33be62d9df7fc6b068407f060ab24ce9
-Size: 376802
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File hotbird.and.dtt.roma
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-henksat-13e-19e
 Version: 1.0+git66+149aa85_r0
 Section: base
@@ -268,63 +238,48 @@ OE: enigma2-plugin-settings-henksat-13e-19e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: ff10b41446f3a9c9e1612402e240b5b3
-Size: 440590
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File motor.and.dtt.forli
+MD5Sum: a8ad833df756e923dca1a0871e0071ba
+Size: 692846
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File motor.and.dtt.italia
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli
+OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-0.8w-13e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 8384f540c49f63945d63b0422fd162ff
-Size: 68688
-Filename: enigma2-plugin-settings-morpheus883-0.8w-13e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 0.8w-13e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-0.8w-13e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: 2bc4ef474151fcb0170aff93e9d2524b
-Size: 123354
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File dual.feeds.and.dtt.napoli
+MD5Sum: 3a151e80e0d2d2041b3be4e97cab2bee
+Size: 545732
+Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File quad.9e.13e.16e.19e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli
+OE: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-9e-13e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 89c1d952ff5d64a126261ca238df7af6
-Size: 83174
-Filename: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 4.8e-13e-19.2e
+MD5Sum: aaa94914f4a0d522bbc51179687cf509
+Size: 59872
+Filename: enigma2-plugin-settings-morpheus883-9e-13e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 9e-13e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e
+OE: enigma2-plugin-settings-morpheus883-9e-13e
 License: Proprietary
 
 
@@ -343,18 +298,33 @@ OE: enigma2-plugin-settings-hans-kabelNL
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 24272e835f6b8138a7018328bc946990
-Size: 77746
-Filename: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 0.8w-4.8e-13e
+MD5Sum: 01e9c40b9073b9e81b984a9a4929b469
+Size: 523712
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File hotbird.and.dtt.milano
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: ab53438a9b841e85d2dbcabfc252d006
+Size: 516720
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File hotbird.and.dtt.italia
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia
 License: Proprietary
 
 
@@ -373,33 +343,18 @@ OE: enigma2-plugin-settings-hans-19e-23e-28e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-13e-28.2e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-9e-13e-19.2e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 22672bc9909d2f477f8015ba3803f7e2
-Size: 62836
-Filename: enigma2-plugin-settings-morpheus883-13e-28.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-28.2e
+MD5Sum: 8cfea58e1a6d26b4ac43ae5644486445
+Size: 90800
+Filename: enigma2-plugin-settings-morpheus883-9e-13e-19.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 9e-13e-19.2e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-28.2e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-morpheus883-13e-19.2e-28.2e
-Version: 1.0+git375+e9f17d2_r0
-Section: base
-Architecture: all
-MD5Sum: db47c6557b771c43959b7f335a4fcf7b
-Size: 93646
-Filename: enigma2-plugin-settings-morpheus883-13e-19.2e-28.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-19.2e-28.2e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-19.2e-28.2e
+OE: enigma2-plugin-settings-morpheus883-9e-13e-19.2e
 License: Proprietary
 
 
@@ -448,33 +403,33 @@ OE: enigma2-plugin-settings-henksat-19e-23e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-vhannibal.dual.feeds
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 4b6ce6382d54ed59fb226b5c6f84700d
-Size: 112970
-Filename: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-16e-19.2e-23.5e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: c93d615c5c9f5cfde06f7c777a1be3e2
-Size: 720356
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File motor.and.dtt.milano
+MD5Sum: 85d8cbd839bac5ad56396d1c28ce25bc
+Size: 250798
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File dual.feeds
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano
+OE: enigma2-plugin-settings-vhannibal.dual.feeds
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-morpheus883-13e-42e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: b6be3b64515611075c39691981343bdd
+Size: 64936
+Filename: enigma2-plugin-settings-morpheus883-13e-42e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-42e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-13e-42e
 License: Proprietary
 
 
@@ -493,6 +448,21 @@ OE: enigma2-plugin-settings-ciefp-39e.23e.19e.16e.13e.4.8e.1.9e.0.8w
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: 36a27a64363ccf3431324fa33645fd21
+Size: 720094
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File motor.and.dtt.milano
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-gigablue-42e_19e_13e_UM
 Version: 1.0+git68+696f888_r0
 Section: base
@@ -508,18 +478,18 @@ OE: enigma2-plugin-settings-gigablue-42e_19e_13e_UM
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-30w-13e-19.2e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-13e-16e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 41264132513db82489cc4bdeaf777555
-Size: 89572
-Filename: enigma2-plugin-settings-morpheus883-30w-13e-19.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 30w-13e-19.2e
+MD5Sum: b1140d6a4a5a9f2b55ba0afda970c41e
+Size: 62506
+Filename: enigma2-plugin-settings-morpheus883-13e-16e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-16e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-30w-13e-19.2e
+OE: enigma2-plugin-settings-morpheus883-13e-16e
 License: Proprietary
 
 
@@ -538,21 +508,6 @@ OE: enigma2-plugin-settings-hans-13e-19e-23e-28e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: d6c4448a4a1615f6491c7b56ccd7b503
-Size: 545730
-Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File quad.9e.13e.16e.19e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-ciefp-19e.16e.13e
 Version: 1.0+git283+5d4974f_r0
 Section: base
@@ -568,18 +523,93 @@ OE: enigma2-plugin-settings-ciefp-19e.16e.13e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.hotbird
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: c4b0ca38ad9589a921ab6d14e0ff71b8
-Size: 220482
-Filename: enigma2-plugin-settings-vhannibal.hotbird_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File hotbird
+MD5Sum: 7c71811fcc9931cde65690b328dd5e8b
+Size: 83078
+Filename: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 4.8e-13e-19.2e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-4.8e-13e-19.2e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: 7fd7240cda0b37021698e7f6dfb539ba
+Size: 423276
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File motor.and.dtt.napoli
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.hotbird
+OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-morpheus883-13e-19.2e-23.5e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: 3ac44c6b88f549c222f05950f630883f
+Size: 93270
+Filename: enigma2-plugin-settings-morpheus883-13e-19.2e-23.5e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-19.2e-23.5e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-13e-19.2e-23.5e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: f55c80de5745b13bb67573e261bd8fc8
+Size: 77806
+Filename: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 0.8w-4.8e-13e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-0.8w-4.8e-13e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-morpheus883-13e-16e-19.2e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: da2e855a424ce8678d9daf25c04baf57
+Size: 93704
+Filename: enigma2-plugin-settings-morpheus883-13e-16e-19.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-16e-19.2e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-13e-16e-19.2e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.trial
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: 05338879439574f7e2d2176398e6d6ef
+Size: 241770
+Filename: enigma2-plugin-settings-vhannibal.trial_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File trial
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.trial
 License: Proprietary
 
 
@@ -598,33 +628,18 @@ OE: enigma2-plugin-settings-gigablue-kabeldeutschland
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-vhannibal.quad.nordic
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 8567c5c7ddb448f86ae9a46ea777aab8
-Size: 574078
-Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File quad.13e.19e.23e.28e
+MD5Sum: 8cdf530f584b09d257159750b6a9c9d8
+Size: 212058
+Filename: enigma2-plugin-settings-vhannibal.quad.nordic_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File quad.nordic
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: 4dc6998f226b000b5d89c5c4d3e80b0d
-Size: 553698
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File dual.feeds.and.dtt.milano
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano
+OE: enigma2-plugin-settings-vhannibal.quad.nordic
 License: Proprietary
 
 
@@ -643,21 +658,6 @@ OE: enigma2-plugin-settings-matze-astra
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: f0a7aff4086ef22fae0bbb247c91cdc2
-Size: 539162
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File dual.feeds.and.dtt.italia
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w
 Version: 1.0+git283+5d4974f_r0
 Section: base
@@ -673,18 +673,18 @@ OE: enigma2-plugin-settings-ciefp-19e.16e.13e.1.9e.0.8w
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-morpheus883-13e-19.2e-28.2e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 0ec9b26e8455d377f7beb76d06adc69b
-Size: 692986
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File motor.and.dtt.italia
+MD5Sum: 46745c70e51a6b11a19e00982abcc64f
+Size: 93598
+Filename: enigma2-plugin-settings-morpheus883-13e-19.2e-28.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-19.2e-28.2e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-13e-19.2e-28.2e
 License: Proprietary
 
 
@@ -718,21 +718,6 @@ OE: enigma2-plugin-settings-henksat-wavefrontier
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: e9a620eaa7f8951d5a9c803ad238a36b
-Size: 432380
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File motor.and.dtt.torino
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-hans-9e-13e-19e-23e-28e-rotating
 Version: 1.3+git42+658bee0_r0
 Section: base
@@ -763,6 +748,21 @@ OE: enigma2-plugin-settings-gigablue-19e_13e_23e_28e
 License: Proprietary
 
 
+Package: enigma2-plugin-settings-morpheus883-30w-13e-19.2e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: 2989ae58c7b3b27aad500906db201833
+Size: 89580
+Filename: enigma2-plugin-settings-morpheus883-30w-13e-19.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 30w-13e-19.2e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-30w-13e-19.2e
+License: Proprietary
+
+
 Package: enigma2-plugin-settings-gigablue-42e_19e_13e_WT
 Version: 1.0+git68+696f888_r0
 Section: base
@@ -778,108 +778,63 @@ OE: enigma2-plugin-settings-gigablue-42e_19e_13e_WT
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-morpheus883-4.8e-13e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: b2615af54898130c91a5cd547c49c6b2
-Size: 419052
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File dual.feeds.and.dtt.roma
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.trial
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: 2abd702eddff4e038a61160bc4fc2eeb
-Size: 241646
-Filename: enigma2-plugin-settings-vhannibal.trial_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File trial
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.trial
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-morpheus883-13e-19.2e
-Version: 1.0+git375+e9f17d2_r0
-Section: base
-Architecture: all
-MD5Sum: 013b471162773c466c51db274ae6e551
-Size: 74046
-Filename: enigma2-plugin-settings-morpheus883-13e-19.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-19.2e
+MD5Sum: 296506dffa7c8340a76907f951e48306
+Size: 51762
+Filename: enigma2-plugin-settings-morpheus883-4.8e-13e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 4.8e-13e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-19.2e
+OE: enigma2-plugin-settings-morpheus883-4.8e-13e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.dual.feeds
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 56f5d1dd1d24b3c095ea5a3bf0244aa8
-Size: 250814
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File dual.feeds
+MD5Sum: c335a759009af567d000e5fdb08acef9
+Size: 376796
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File hotbird.and.dtt.roma
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.dual.feeds
+OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-vhannibal.hotbird
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: d883915779360ff2c4c5982dc9670ddb
-Size: 516726
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File hotbird.and.dtt.italia
+MD5Sum: 82dd5c8abf239520c90bbf84c00d673e
+Size: 220474
+Filename: enigma2-plugin-settings-vhannibal.hotbird_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File hotbird
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia
+OE: enigma2-plugin-settings-vhannibal.hotbird
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-morpheus883-13e-23.5e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 677abb029ea8f30008badd4b35863122
-Size: 523710
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File hotbird.and.dtt.milano
+MD5Sum: 937e4b5704b524de646c3923bd89d8f2
+Size: 62200
+Filename: enigma2-plugin-settings-morpheus883-13e-23.5e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-23.5e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: a501359dd1c86fbeec4ae190afe1cf10
-Size: 200864
-Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File quad.7e.13e.19e.42e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-13e-23.5e
 License: Proprietary
 
 
@@ -898,33 +853,33 @@ OE: enigma2-plugin-settings-henksat-13e-19e-23e-28e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 737dc6145ddd6bdff6fc70e1174c7aeb
-Size: 79704
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli_1.0+git8364+6539932_r0_all.ipk
+MD5Sum: 94eb9ceae7f93387d62ceae2696be34c
+Size: 717918
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File motor.and.dtt.roma
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: f17892ebfea62a390675de2f185f9708
+Size: 79708
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli_1.0+git8366+a47fecb_r0_all.ipk
 Description: Vhannibal E2 Settings File hotbird.and.dtt.napoli
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-vhannibal.motor
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: 756e225d13b4ad24d99937a0ade1b367
-Size: 401586
-Filename: enigma2-plugin-settings-vhannibal.motor_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File motor
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.motor
 License: Proprietary
 
 
@@ -940,6 +895,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/teamblue-e2/settings
 OE: enigma2-plugin-settings-gigablue-unity_media
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.motor
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: d7e8236c9eadd4bf8646e7822b96dfb8
+Size: 401702
+Filename: enigma2-plugin-settings-vhannibal.motor_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File motor
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.motor
 License: Proprietary
 
 
@@ -988,21 +958,6 @@ OE: enigma2-plugin-settings-gigablue-19e_13e_42e_28e_23e_4e_0w_30w
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.quad.nordic
-Version: 1.0+git8364+6539932_r0
-Section: base
-Architecture: all
-MD5Sum: 397da30229f620bfeaacbfbb0cc7c420
-Size: 212064
-Filename: enigma2-plugin-settings-vhannibal.quad.nordic_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File quad.nordic
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.quad.nordic
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-ciefp-motor.68e.30w.vod
 Version: 1.0+git283+5d4974f_r0
 Section: base
@@ -1030,6 +985,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/ciefp/ciefpsettings-enigma2
 OE: enigma2-plugin-settings-ciefp-19e.16e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-morpheus883-30w-13e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: 8a7dada5293c2ea7f2dab7a3a430ee15
+Size: 58212
+Filename: enigma2-plugin-settings-morpheus883-30w-13e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 30w-13e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-30w-13e
 License: Proprietary
 
 
@@ -1063,18 +1033,33 @@ OE: enigma2-plugin-settings-henksat-rotating
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e-28.2e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-13e-19.2e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: f710ad50c72d448ff32715273b453357
-Size: 119658
-Filename: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e-28.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 0.8w-13e-19.2e-28.2e
+MD5Sum: b71666f6fe31ae05c16814682834d6df
+Size: 73970
+Filename: enigma2-plugin-settings-morpheus883-13e-19.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-19.2e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e-28.2e
+OE: enigma2-plugin-settings-morpheus883-13e-19.2e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: a07fe32d7501594cbde0a5eceeda340e
+Size: 553700
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File dual.feeds.and.dtt.milano
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano
 License: Proprietary
 
 
@@ -1093,48 +1078,48 @@ OE: enigma2-plugin-settings-gigablue-19e_13e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-9e-13e-19.2e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: ad595ae39b96391be6596ea7d3ebf5a1
-Size: 90816
-Filename: enigma2-plugin-settings-morpheus883-9e-13e-19.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 9e-13e-19.2e
+MD5Sum: 2cf94a639b697ecdb5f7251d2b695332
+Size: 113022
+Filename: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-16e-19.2e-23.5e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-9e-13e-19.2e
+OE: enigma2-plugin-settings-morpheus883-13e-16e-19.2e-23.5e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma
-Version: 1.0+git8364+6539932_r0
+Package: enigma2-plugin-settings-morpheus883-motor
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 165dd6f7cdba48d92481ff8ec62e0c92
-Size: 718798
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma_1.0+git8364+6539932_r0_all.ipk
-Description: Vhannibal E2 Settings File motor.and.dtt.roma
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/oe-alliance/oe-alliance-settings
-OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-morpheus883-13e-16e
-Version: 1.0+git375+e9f17d2_r0
-Section: base
-Architecture: all
-MD5Sum: cb162b9f6465a59600d9c87ac16d330c
-Size: 62452
-Filename: enigma2-plugin-settings-morpheus883-13e-16e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-16e
+MD5Sum: d351021063d1a1648036057e792b24ee
+Size: 389662
+Filename: enigma2-plugin-settings-morpheus883-motor_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings motor
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-16e
+OE: enigma2-plugin-settings-morpheus883-motor
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-morpheus883-13e-28.2e
+Version: 1.0+git376+58f48ab_r0
+Section: base
+Architecture: all
+MD5Sum: 474a49a3bfffced236466394c2a57303
+Size: 62790
+Filename: enigma2-plugin-settings-morpheus883-13e-28.2e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e-28.2e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/morpheus883/enigma2-settings
+OE: enigma2-plugin-settings-morpheus883-13e-28.2e
 License: Proprietary
 
 
@@ -1168,21 +1153,6 @@ OE: enigma2-plugin-settings-matze-astra-hotbird
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e
-Version: 1.0+git375+e9f17d2_r0
-Section: base
-Architecture: all
-MD5Sum: f1f39d039e55bdc9c127a88fdea45b9f
-Size: 99930
-Filename: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 0.8w-13e-19.2e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-0.8w-13e-19.2e
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-gigablue-19e
 Version: 1.0+git68+696f888_r0
 Section: base
@@ -1195,6 +1165,21 @@ Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/teamblue-e2/settings
 OE: enigma2-plugin-settings-gigablue-19e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: c6b48d6b005b9f456f07fe7b3e1e284a
+Size: 419376
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File dual.feeds.and.dtt.roma
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma
 License: Proprietary
 
 
@@ -1213,18 +1198,33 @@ OE: enigma2-plugin-settings-henksat-19e-23e-28e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-9e-13e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-morpheus883-13e
+Version: 1.0+git376+58f48ab_r0
 Section: base
 Architecture: all
-MD5Sum: 6545940bdda12cf6e2d6108bd6d675dc
-Size: 59866
-Filename: enigma2-plugin-settings-morpheus883-9e-13e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 9e-13e
+MD5Sum: 7b04220f52221c19dd9fa0ea35a6b14a
+Size: 43316
+Filename: enigma2-plugin-settings-morpheus883-13e_1.0+git376+58f48ab_r0_all.ipk
+Description: morpheus883 enigma2 settings 13e
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-9e-13e
+OE: enigma2-plugin-settings-morpheus883-13e
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: b7a193d4d52b0997257919dc498dd58c
+Size: 123350
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File dual.feeds.and.dtt.napoli
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli
 License: Proprietary
 
 
@@ -1243,36 +1243,6 @@ OE: enigma2-plugin-settings-henksat-13e-19e-23e-28e-42e-7e
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-13e-16e-19.2e
-Version: 1.0+git375+e9f17d2_r0
-Section: base
-Architecture: all
-MD5Sum: e01975be007be3746bd537f2a93b5766
-Size: 93620
-Filename: enigma2-plugin-settings-morpheus883-13e-16e-19.2e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 13e-16e-19.2e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-13e-16e-19.2e
-License: Proprietary
-
-
-Package: enigma2-plugin-settings-morpheus883-4.8e-13e
-Version: 1.0+git375+e9f17d2_r0
-Section: base
-Architecture: all
-MD5Sum: 1aa084387ffc28dd1308e0b6a4b6c009
-Size: 51772
-Filename: enigma2-plugin-settings-morpheus883-4.8e-13e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 4.8e-13e
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-4.8e-13e
-License: Proprietary
-
-
 Package: enigma2-plugin-settings-matze-kabel-deutschland
 Version: 1.0+git26+79c0ddc_r0
 Section: base
@@ -1288,18 +1258,33 @@ OE: enigma2-plugin-settings-matze-kabel-deutschland
 License: Proprietary
 
 
-Package: enigma2-plugin-settings-morpheus883-30w-13e
-Version: 1.0+git375+e9f17d2_r0
+Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: b3a9a31b228191f14c66ed6daf2c674c
-Size: 58218
-Filename: enigma2-plugin-settings-morpheus883-30w-13e_1.0+git375+e9f17d2_r0_all.ipk
-Description: morpheus883 enigma2 settings 30w-13e
+MD5Sum: 5ced6375b144a6b57dde9f0ec62f61d6
+Size: 540358
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File dual.feeds.and.dtt.italia
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
-Source: https://github.com/morpheus883/enigma2-settings
-OE: enigma2-plugin-settings-morpheus883-30w-13e
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: 2bf36b976dbebee1290138ed4484e827
+Size: 574122
+Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File quad.13e.19e.23e.28e
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e
 License: Proprietary
 
 
@@ -1319,17 +1304,32 @@ License: Proprietary
 
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino
-Version: 1.0+git8364+6539932_r0
+Version: 1.0+git8366+a47fecb_r0
 Section: base
 Architecture: all
-MD5Sum: 176536b1284559d17496956d2f92efeb
-Size: 165506
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino_1.0+git8364+6539932_r0_all.ipk
+MD5Sum: 497bec763dbc9b8fff10c9144306b27d
+Size: 165544
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino_1.0+git8366+a47fecb_r0_all.ipk
 Description: Vhannibal E2 Settings File hotbird.and.dtt.torino
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
 Priority: optional
 Source: https://github.com/oe-alliance/oe-alliance-settings
 OE: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino
+License: Proprietary
+
+
+Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli
+Version: 1.0+git8366+a47fecb_r0
+Section: base
+Architecture: all
+MD5Sum: 6eca1ba8d5b4722c49430a345c23fc67
+Size: 440576
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli_1.0+git8366+a47fecb_r0_all.ipk
+Description: Vhannibal E2 Settings File motor.and.dtt.forli
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Priority: optional
+Source: https://github.com/oe-alliance/oe-alliance-settings
+OE: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli
 License: Proprietary
 
 
